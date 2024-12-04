@@ -1,0 +1,198 @@
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: rgba(0, 128, 0, 0.756);
+}
+  
+header {
+    color: goldenrod;
+    text-align: center;
+    position: fixed;
+}
+  
+p {
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    color: crimson;
+}
+
+li{
+    font-family: Helvetica;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+footer{
+    color: greenyellow;
+    text-align: center;
+}
+
+.centered{
+    text-align: center;
+}
+
+
+.slide {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background-image: url("Interestingthings/IMG_20211121_122412.jpg");
+}
+.slide2 {
+    background-image: url("Interestingthings/IMG_20230610_124529.jpg");
+}
+.slide3 {
+    background-image: url("Interestingthings/IMG_20230915_135954.jpg");
+}
+.slide4 {
+    background-image: url("Interestingthings/IMG_20231008_110740.jpg");
+}
+.slide5 {
+    background-image: url("Interestingthings/IMG_20231022_121522.jpg");
+}
+.slide6 {
+    background-image: url("Interestingthings/IMG-20200816-WA0007.jpg");
+}
+.slide7 {
+    background-image: url("Interestingthings/IMG-20200816-WA0009.jpg");
+}
+.slide8 {
+    background-image: url("Interestingthings/IMG-20210202-WA0003.jpg");
+}
+.slide9 {
+    background-image: url("Interestingthings/IMG-20210226-WA0000.jpg");
+}
+.slide10 {
+    background-image: url("Interestingthings/IMG-20220628-WA0010.jpg");
+}
+.slide11 {
+    background-image: url("Interestingthings/IMG-20220915-WA0008.jpg");
+}
+.slide12 {
+    background-image: url("Interestingthings/IMG-20220702-WA0000.jpg");
+}
+.slide13 {
+    background-image: url("Interestingthings/IMG-20230114-WA0008.jpg");
+}
+.slide14 {
+    background-image: url("Interestingthings/IMG-20230915-WA0035.jpg");
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #000000 transparent transparent;
+    left: 0;
+    margin-left: 20px;
+}
+
+#arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #060202;
+    right: 0;
+    margin-right: 20px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo {
+    font-family: 'sans-serif';
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    padding-left: 40px;
+    color: black;
+    position: fixed;
+}
+
+.nav_link {
+    position: fixed;
+    top: 6rem;
+    left: 18px;
+    font-size: large;
+    color: black;
+}
+
+
+.hiking {
+    background-image: url("Interestingthings/IMG_20211121_122412.jpg");
+}
+
+.hobbies{
+    font-family: Helvetica;
+    font-size: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: goldenrod;
+    
+}
+
+.hobby_background{
+    background-image: url('hobbies/IMG_20230917_103001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.about_me{
+    background-image: url('about/IMG-20220628-WA0013.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.aboutit {
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 20px;
+    color: goldenrod;
+}
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+    color: black;
+}
+.home{
+    background-image: url('home/IMG_20230808_134332.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fullname {
+    font-family: Helvetica;
+    font-size: 100px;
+    color: rgb(6, 50, 6);
+    text-align: center;
+    border-color: #000000;
+}

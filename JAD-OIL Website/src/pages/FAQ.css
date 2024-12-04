@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial;
+    
+}
+
+.title{
+    font-size: 2.5rem;
+    height: 2.5rem;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 80%);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-family: Arial;
+}
+
+.cardSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture_1 {
+    width: 30%;
+    height: 30%;
+}
+
+.answer_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer_text {
+    font-family: Arial;
+}
+
+.payment {
+    text-align: center;
+}
+
+.guideline {
+    text-align: center;
+}
+
+.picture_2 {
+    width: 50%;
+    height: 50%;
+}
+
+.picture_3 {
+    width: 60%;
+    height: 60%;
+}

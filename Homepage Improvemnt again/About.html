@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/b18c57eae0.js" crossorigin="anonymous"></script>
+        <title>About</title>        
+    </head>
+    <body>
+        <!-- Navigation Bar section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="Home.html" id="navbar__logo"><i class="fa-solid fa-gamepad"></i>ECM</a>
+                <!-- For Mobile devices -->                  
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!-- For Mobile devices menu bar changes --> 
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="Home.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="About.html" class="navbar__links">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Hobbies.html" class="navbar__links">Hobbies</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Photos.html" class="navbar__links">Photos</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="ContactUs.html" class="button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation Bar section -->
+        <!-- Summary one word sentence to catch viewers eye -->
+        <div class="main">
+            <div class="main__container">
+                <div class="main__img-container">
+                    <img src="images/undraw_profile_re_4a55.svg" alt="Picture 1" id="main__img">
+
+                </div>  
+                <div class="main__content">
+                    <h1>Who is</h1>
+                    <h2>Erin Cole Manuel?</h2>
+                    <p>The Last Airbender</p>
+                    <button onclick="moveToSection('body1')" class="main__btn"><a> Get Started</a></button>
+                </div>
+            </div> 
+         </div>
+         <!-- Summary one word sentence to catch viewers eye -->
+         <!-- The options page summary -->
+        <div class="body__object">
+            <div class="body__countainer" id = "body1">
+                <h1>Brief Overview</h1>
+                <p class = "aboutformat">
+                    <strong>Erin Cole Manuel</strong> was born on the <strong>15 March 1997</strong> in the city of <strong>Durban</strong> is an odd human being who has several talents and quirks
+                    about him that makes him very intriguing. He enjoys eating any type of pasta that is cooked up for him and pairing that with <strong>Tiramisu</strong> dessert would
+                    definitely get you in his good graces. The hardest dish he has ever attempted to produce was a chicken,mushroom and bacon risotto. The easiest and most common dessert that
+                    he is able to make is the peppermint crisp tart. He's traveled to a couple of countries such as <strong>Netherlands</strong>, <strong>Japan</strong> and <strong>USA</strong>.
+                    He enjoys coding and has coded in several languages such as <strong>Assembly code </strong>, <strong>Python</strong>, <strong>Javascript</strong>, <strong>C++ & C</strong> 
+                    and most recently <strong>HTML & CSS</strong>. He has the ability to <strong>arc weld</strong> although not like a professional but it gets the job done. His favorite color is <strong>green</strong>.
+                    He is quite the adrenaline junky (<em>eg.</em> cliff jumping, absailing <em>etc.</em> ) and is most likely willing to do anything daring that has been well thought out.
+                </p>
+            </div>
+        </div>    
+         <!-- The options page summary -->
+         <!-- Footer Section -->
+         <div class="foot__container__about">
+             <div class="footer__aboutlinks">
+                 <div class="footer__aboutlink-wrapper">
+                     <div class="footer__aboutlink-items">
+                         <h2>Social Media and Gamer Profile</h2>
+                         <a href="https://instagram.com/erincolemanuel?igshid=MjExM2owdjMzcWZ6">Instagram</a><a href="https://www.linkedin.com/in/erin-cole-manuel-626454229/">LinkedIn</a>
+                         <a href="https://steamcommunity.com/id/LostDeity/">Steam Account</a><a href="https://www.youtube.com/channel/UCt6h1-mvwmbhYf9-7CtNMPA">Youtube</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="social__media">
+                 <div class="social__media-wrap">
+                     <div class="footer__logo">
+                         <a href="Home.html" id="footer__logo"><i class="fa-solid fa-gamepad"></i>ECM</a>
+                     </div>
+                     <p class="website__rights">&#169; ECM 1997. All rights reserved</p>
+                     <div class="social__icons">
+                         <a href="https://instagram.com/erincolemanuel?igshid=MjExM2owdjMzcWZ6" class="social__icon-link" target = "_blank">
+                             <i class="fab fa-instagram"></i>
+                         </a>
+                         <a href="https://www.linkedin.com/in/erin-cole-manuel-626454229/" class="social__icon-link" target = "_blank">
+                             <i class="fab fa-linkedin"></i>
+                         </a>
+                         <a href="https://steamcommunity.com/id/LostDeity/" class="social__icon-link" target = "_blank">
+                             <i class="fab fa-steam"></i>
+                         </a>
+                         <a href="https://www.youtube.com/channel/UCt6h1-mvwmbhYf9-7CtNMPA" class="social__icon-link" target = "_blank">
+                             <i class="fab fa-youtube" ></i>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!-- Footer Section -->
+        <script src = 'app.js'></script>
+    </body>
+</html>

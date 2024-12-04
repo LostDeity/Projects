@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <h1>Transactional History</h1>
+    {% if Option == 1 %}
+        <h1>No Transactions have taken place yet.</h1>
+    {% else %}
+        <table class = "home_table">
+            <thead>
+                <tr class="home_table_tr">
+                    <th>Name</th>
+                    <th>Amount Of Shares</th>
+                    <th>Price</th>                    
+                    <th>Transacted</th>
+                </tr>
+            </thead>
+            <tbody >
+                {% for i in range(length) %}
+                    <tr class="home_table_tr">
+                        <td> {{ name[i] }} </td>
+                        <td> {{ shares[i] }} </td>
+                        <td> {{ cost[i] }} </td>
+                        <td> {{ date[i] }} </td>
+                    </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

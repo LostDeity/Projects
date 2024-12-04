@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+
+{% block main %}
+<!-- CSV header: Date,Open,High,Low,Close,Adj Close,Volume -->
+    <h1>Current Stock Pricing</h1>
+    <table class="home_table">
+        <thead >
+            <tr class="home_table_tr">
+                <th>Name</th>
+                <th>Price</th>
+                <th>Symbol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="home_table_tr">
+                <td>{{ name }}</td>
+                <td>{{ price }}</td>
+                <td>{{ symbol }}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+    <h1> Current Stocks Owned</h1>
+    {% if Option == 1 %}
+        <table class = "home_table">
+            <thead>
+                <tr>
+                    <th>Cash</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ cash }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ Total }}</td>
+                </tr>
+            </tbody>
+        </table>
+    {% else %}
+        <table class = "home_table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Amount Of Shares</th>
+                    <th>Total Value of Shares</th>
+                    <th>Percentage gained/loss</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in range(length) %}
+                    <tr>
+                        <td> {{ name[i] }} </td>
+                        <td> {{ cost[i] }} </td>
+                        <td> {{ shares[i] }} </td>
+                        <td> {{ total[i] }} </td>
+                        <td> {{ percentage[i] }} </td>
+                    </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+        <table class= "home_table">
+            <thead>
+                <tr>
+                    <th>Cash</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ cash }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class = "home_table">
+            <thead>
+                <tr class="home_table_tr">
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="home_table_tr">
+                    <td>{{ Total }}</td>
+                </tr>
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

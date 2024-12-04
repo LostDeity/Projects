@@ -1,0 +1,164 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial;
+    gap: 20px;
+}
+
+.aboutSection {
+    display: flex ;
+    width: 80%;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border-style: groove;
+}
+
+.homeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+}
+
+.homeImage {
+    height: 15%;
+    width: 15%;
+}
+
+.buttonStyle{
+    font-size: 20px; 
+    border-radius: 5px;
+    text-decoration:none; 
+    color:white; 
+    background-color:#FF3131;
+    padding: 5px;
+}
+
+.about_body_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 30px;
+}
+
+.pictureProps{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.about_text{
+    display: flex;
+    width: 50%;
+}
+
+h4{
+    margin:0;
+}
+
+.product_text{
+    display: flex;
+    width: 50%;
+}
+
+.product_body_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 30px;
+}
+
+.productSection {
+    display: flex ;
+    width: 80%;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border-style: groove;
+}
+
+.FAQ_text{
+    display: flex;
+    width: 50%;
+}
+
+.FAQ_body_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 30px;
+}
+
+.FAQSection {
+    display: flex ;
+    width: 80%;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border-style: groove;
+}
+
+.get_in_touch_container {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h5{
+    margin:0;
+}
+
+.contact_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_us_item{
+    font-size: 0.8rem;
+    font-family: Arial;
+    font-weight: 100;
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+}

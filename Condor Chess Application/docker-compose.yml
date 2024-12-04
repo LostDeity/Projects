@@ -1,0 +1,34 @@
+name: condor-chess-app
+
+services:
+  api:
+    build:
+      context: ./back_end
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./back_end/.env
+    volumes:
+      - ./back_end:/app
+      - /app/node_modules
+    networks:
+      - chess-app
+    ports:
+      - 5000:5000
+  front_end:
+    build:
+      context: ./front_end
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./front_end/.env
+    volumes:
+      - ./front_end:/app
+      - /app/node_modules
+    networks:
+      - chess-app
+    ports:
+      - 3000:3000
+    depends_on:
+      - api
+networks:
+  chess-app:
+    driver: bridge

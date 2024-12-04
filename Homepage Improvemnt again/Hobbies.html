@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/b18c57eae0.js" crossorigin="anonymous"></script>
+        <title>Hobbies</title>        
+    </head>
+    <body>
+        <!-- Navigation Bar section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="Home.html" id="navbar__logo"><i class="fa-solid fa-gamepad"></i>ECM</a>
+                <!-- For Mobile devices -->                  
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!-- For Mobile devices menu bar changes --> 
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="Home.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="About.html" class="navbar__links">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Hobbies.html" class="navbar__links">Hobbies</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Photos.html" class="navbar__links">Photos</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="ContactUs.html" class="button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation Bar section -->
+        <!-- Summary one word sentence to catch viewers eye -->
+        <div class="main">
+            <div class="main__container">
+             <div class="main__content">
+                 <h1>Activities &</h1>
+                 <h2>Interests</h2>
+                 <p>Audere est faucere.</p>
+                 <button onclick="moveToSection('options1')" class="main__btn"><a> Get Started</a></button>
+             </div>
+             <div class="main__img-container">
+                 <img src="images/undraw_into_the_night_vumi.svg" alt="Picture 1" id="main__img">
+ 
+             </div>
+            </div> 
+        </div>
+         <!-- Summary one word sentence to catch viewers eye -->
+        <!-- The Hobbies -->
+        <div class="body__hobby" id = "options1">  
+            <h1>Which of these acitivies do you enjoy doing?</h1>         
+            <div class="hobby__container">
+              <div class="hobby__card-slider">                    
+                <div class="hobby__card">
+                  <div class="card-body">
+                    <h5 class="card-title">HIKING</h5>
+                    <button class="hobby__btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseCard1">Learn more</button>
+                    <div class="collapse" id="collapseCard1">
+                      <div class="mt-3">
+                        <p class = "hdescription">
+                          I enjoy hiking and being out in nature. 
+                          I would like to one day conquer Mount Kilimanjaro as a part of my bucket list. 
+                          I've hiked in Stellenbosch, and all around Johannesburg and Hatfield.
+                          I have not yet been able to do a several day hike yet but that is on the list.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hobby__card">
+                  <div class="card-body">
+                    <h5 class="card-title">Playing Games</h5>
+                    <button class="hobby__btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseCard2">Learn more</button>
+                    <div class="collapse" id="collapseCard2">
+                      <div class="mt-3">
+                        <p class = "hdescription">
+                          I mainly play games with friends such as 
+                          <strong><a class = "hlinks" href="https://www.counter-strike.net/cs2">CS2</a> </strong> and 
+                          <strong> <a class = "hlinks" href="https://oldschool.runescape.com/">Runescape</a></strong> 
+                          or whatever really is the flavour of the month that my friends and I feel like messing around with. 
+                          I also enjoying playing tons of single player games such as the 
+                          <strong><a class = "hlinks" href="https://www.youtube.com/watch?v=D_iqjI2p7F4">Souls Games</a></strong> and 
+                          the <strong><a class = "hlinks" href="https://www.youtube.com/watch?v=hUsFjzY2Mi8">Witcher Series</a></strong>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hobby__card">
+                  <div class="card-body">
+                    <h5 class="card-title">Nature Reserve</h5>
+                    <button class="hobby__btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseCard3">Learn more</button>
+                    <div class="collapse" id="collapseCard3">
+                      <p class = "hdescription">
+                        I said earlier that i enjoy being in nature , my all time favorite acitivity is spending time in the nature reserve namely 
+                        <strong><a class = "hlinks" href="https://www.pilanesbergnationalpark.org">The Pilanesburg Nature Reserve & Park </a></strong>. Where my friends and I will wake up early
+                        every morning in order to spend most of the day in the park just trying to get the best spottings of animals. Just observing animals in their natural habitats
+                        has always interested me.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hobby__card">
+                  <div class="card-body">
+                    <h5 class="card-title">Reading</h5>
+                    <button class="hobby__btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseCard4">Learn more</button>
+                    <div class="collapse" id="collapseCard4">
+                      <p class = "hdescription">
+                        I've read a great amount of fictional books such as the <strong>Harry Potter</strong> series and several series by <strong>Rick Riordan</strong>.
+                        I have enjoyed books such as <strong>The Alchemist by Paulo Coelho</strong> as well the <strong>Everything is F*cked by Mark Manson</strong>  which are very good
+                        thought provoking books.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- The Hobbies -->
+        <!-- Footer Section -->
+        <div class="foot__container">
+            <div class="footer__links">
+                <div class="footer__link-wrapper">
+                    <div class="footer__link-items">
+                        <h2>Social Media and Gamer Profile</h2>
+                        <a href="https://instagram.com/erincolemanuel?igshid=MjExM2owdjMzcWZ6">Instagram</a><a href="https://www.linkedin.com/in/erin-cole-manuel-626454229/">LinkedIn</a>
+                        <a href="https://steamcommunity.com/id/LostDeity/">Steam Account</a><a href="https://www.youtube.com/channel/UCt6h1-mvwmbhYf9-7CtNMPA">Youtube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media-wrap">
+                    <div class="footer__logo">
+                        <a href="Home.html" id="footer__logo"><i class="fa-solid fa-gamepad"></i>ECM</a>
+                    </div>
+                    <p class="website__rights">&#169; ECM 1997. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="https://instagram.com/erincolemanuel?igshid=MjExM2owdjMzcWZ6" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/erin-cole-manuel-626454229/" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://steamcommunity.com/id/LostDeity/" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCt6h1-mvwmbhYf9-7CtNMPA" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-youtube" ></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Footer Section -->
+        <script src = 'app.js'></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

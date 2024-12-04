@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    SELL
+{% endblock %}
+
+{% block main %}
+    <h1>Sell Current Stocks</h1>
+    {% if Option == 1 %}
+    <form action="/sell" method="post">
+        <select name="Symbol" id = "Symbol" >
+            <option disabled selected>Symbol</option>
+            {% for i in name%}
+                <option value="{{ i }}">{{ i }}</option>
+            {%endfor%}
+        </select>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="amount" name="amount" placeholder="Amount of Shares to be sold" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Sell Shares</button>
+    </form>
+    {% else %}
+        <h1>Please purchase stocks from the <a href="buy.html">buy </a> page</h1>
+        
+    {% endif %}
+{% endblock %}
+<!-- w - 50, mx - auto -->

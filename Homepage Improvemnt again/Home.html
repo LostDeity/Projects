@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/b18c57eae0.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <title>Homepage</title>        
+    </head>
+    <body>
+        <!-- Navigation Bar section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="Home.html" id="navbar__logo"><i class="fa-solid fa-gamepad"></i>ECM</a>
+                <!-- For Mobile devices -->                  
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!-- For Mobile devices menu bar changes --> 
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="Home.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="About.html" class="navbar__links">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Hobbies.html" class="navbar__links">Hobbies</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Photos.html" class="navbar__links">Photos</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="ContactUs.html" class="button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation Bar section -->
+        <!-- Summary one word sentence to catch viewers eye -->
+        <div class="main">
+           <div class="main__container">
+            <div class="main__content">
+                <h1>ERIN COLE</h1>
+                <h2>MANUEL</h2>
+                <p>MOMENTO VIVERE.</p>
+                <button onclick="moveToSection('options1')" class="main__btn"><a> Get Started</a></button>
+            </div>
+            <div class="main__img-container">
+                <img src="undraw_freelancer_re_irh4(1).svg" alt="Picture 1" id="main__img">
+
+            </div>
+           </div> 
+        </div>
+        <!-- Summary one word sentence to catch viewers eye -->
+        <!-- The options page summary -->
+        <div class="options" id = "options1">
+            <h1>Would you like to take a dive into who this man is ?</h1>
+            <div class="options__container">
+                <div class="options__card">
+                    <h2>About Erin</h2>
+                    <p>Just a man from <strong>South Africa</strong> with big aspirations</p>
+                    <a href="About.html"><button>More Information....</button></a>
+                </div>
+                <div class="options__card">
+                    <h2>Hobbies</h2>
+                    <p>Seeker of adventures big and small</p>
+                    <a href="Hobbies.html"><button>More Information....</button></a>
+                </div>
+                <div class="options__card">
+                    <h2>Photos From My Adventures</h2>
+                    <p>Glimpses into to my life</p>
+                    <a href="Photos.html"><button>More Information....</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- The options page summary -->
+        <!-- Footer Section -->
+        <div class="foot__container">
+            <div class="footer__links">
+                <div class="footer__link-wrapper">
+                    <div class="footer__link-items">
+                        <h2>Social Media and Gamer Profile</h2>
+                        <a href="https://instagram.com/erincolemanuel?igshid=MjExM2owdjMzcWZ6">Instagram</a><a href="https://www.linkedin.com/in/erin-cole-manuel-626454229/">LinkedIn</a>
+                        <a href="https://steamcommunity.com/id/LostDeity/">Steam Account</a><a href="https://www.youtube.com/channel/UCt6h1-mvwmbhYf9-7CtNMPA">Youtube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social__media">
+                <div class="social__media-wrap">
+                    <div class="footer__logo">
+                        <a href="Home.html" id="footer__logo"><i class="fa-solid fa-gamepad"></i>ECM</a>
+                    </div>
+                    <p class="website__rights">&#169; ECM 1997. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="https://instagram.com/erincolemanuel?igshid=MjExM2owdjMzcWZ6" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/erin-cole-manuel-626454229/" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://steamcommunity.com/id/LostDeity/" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCt6h1-mvwmbhYf9-7CtNMPA" class="social__icon-link" target = "_blank">
+                            <i class="fab fa-youtube" ></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section -->
+        <script src = 'app.js'></script>
+    </body>
+</html>
