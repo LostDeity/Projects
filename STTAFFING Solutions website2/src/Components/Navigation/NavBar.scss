@@ -1,0 +1,207 @@
+@import "../../App.scss";
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom: 0.7px solid rgba(255, 255, 240, 0.2);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 100px;
+  font-size: 16px;
+  color: #fffff0;
+  font-family: Karla;
+  z-index: 1;
+
+  @include desktop {
+    width: 1600px;
+    padding: 15px 83.3px;
+    font-size: 13.3px;
+  }
+
+  @include laptop {
+    width: 1366px;
+    padding: 13px 71px;
+    font-size: 13.3px;
+  }
+
+  @include laptop_2 {
+    width: 1280px;
+    padding: 13px 66px;
+    font-size: 13.3px;
+  }
+
+  @include tablet {
+    width: 1024px;
+    padding: 12.75px 53.3px;
+    font-size: 13.3px;
+  }
+
+  @include mobile {
+    width: 800px;
+    padding: 10px 43px;
+    font-size: 11px;
+  }
+
+  @include mobile_2 {
+    width: 414px;
+    padding: 15.4px 17.2px;
+    font-size: 17px;
+  }
+}
+
+.rightArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.smallInput {
+  width: 386.8px;
+  backdrop-filter: blur(200px);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0.6px solid rgba(255, 255, 240, 0.3);
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  gap: 8px;
+
+  @include desktop {
+    width: 322.3px;
+    backdrop-filter: blur(166.7px);
+    border-radius: 25px;
+    height: 41.7px;
+    padding: 8.33px 13.3px;
+    gap: 6.67px;
+  }
+
+  @include laptop {
+    width: 274px;
+    backdrop-filter: blur(166.7px);
+    border-radius: 21.3px;
+    height: 35.4px;
+    padding: 7.1px 11.3px;
+    gap: 5.7px;
+  }
+
+  @include laptop_2 {
+    width: 254px;
+    backdrop-filter: blur(566.7px);
+    border-radius: 21.3px;
+    height: 35.4px;
+    padding: 7.1px 11.3px;
+    gap: 5.7px;
+  }
+
+  @include tablet {
+    width: 206px;
+    backdrop-filter: blur(107px);
+    border-radius: 21.3px;
+    height: 35.4px;
+    padding: 7.1px 8.5px;
+    gap: 5.7px;
+  }
+
+  @include mobile {
+    width: 165px;
+    backdrop-filter: blur(86px);
+    border-radius: 17px;
+    height: 28px;
+    padding: 6px 7px;
+    gap: 5px;
+  }
+
+  @include mobile_2 {
+    width: 66px;
+    backdrop-filter: blur(35px);
+    border-radius: 7px;
+    height: 44px;
+    padding: 6px 7px;
+    gap: 3px;
+  }
+}
+
+.icon2 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  @include desktop {
+    width: 20px;
+    height: 20px;
+  }
+
+  @include laptop {
+    width: 17px;
+    height: 17px;
+  }
+
+  @include laptop_2 {
+    width: 15px;
+    height: 17px;
+  }
+
+  @include tablet {
+    width: 12.8px;
+    height: 17px;
+  }
+
+  @include mobile {
+    width: 10px;
+    height: 14px;
+  }
+
+  @include mobile_2 {
+    width: 10px;
+    height: 22px;
+  }
+}
+
+.search {
+  position: relative;
+  line-height: 21px;
+  width: 100%;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  color: #fffff0;
+  text-decoration: none;
+
+  @include desktop {
+    line-height: 17.5px;
+  }
+
+  @include laptop {
+    line-height: 14.7px;
+  }
+
+  @include laptop_2 {
+    line-height: 14.7px;
+  }
+
+  @include tablet {
+    line-height: 14.7px;
+  }
+
+  @include mobile {
+    line-height: 12.7px;
+  }
+
+  @include mobile_2 {
+    line-height: 10px;
+  }
+}

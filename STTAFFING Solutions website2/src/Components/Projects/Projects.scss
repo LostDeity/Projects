@@ -1,0 +1,1463 @@
+@import "../../App.scss";
+
+.projects1 {
+  position: absolute;
+  top: 2160px;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 1080px;
+  font-size: 18px;
+
+  @include desktop {
+    top: 1800px;
+    left: calc(50% - 800px);
+    width: 1600px;
+    height: 900px;
+    font-size: 15px;
+  }
+
+  @include laptop {
+    top: 1530px;
+    left: 0;
+    width: 1366px;
+    height: 768px;
+    font-size: 13px;
+  }
+
+  @include laptop_2 {
+    top: 1600px;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    font-size: 13px;
+  }
+
+  @include tablet {
+    top: 1530px;
+    left: calc(50% - 512px);
+    width: 1024px;
+    height: 765px;
+    font-size: 12.8px;
+  }
+
+  @include mobile {
+    top: 1200px;
+    left: calc(50% - 400px);
+    width: 800px;
+    height: 600px;
+    font-size: 10px;
+  }
+
+  @include mobile_2 {
+    top: 1852px;
+    left: calc(50% - 207px);
+    width: 414px;
+    height: 926px;
+    font-size: 6px;
+  }
+}
+
+.groupParent1 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 555px);
+  width: 1110px;
+  height: 553px;
+
+  @include desktop {
+    left: calc(50% - 462px);
+    width: 925px;
+    height: 461px;
+  }
+
+  @include laptop {
+    left: calc(50% - 393px);
+    width: 787px;
+    height: 392px;
+  }
+
+  @include laptop_2 {
+    left: calc(50% - 365px);
+    width: 731px;
+    height: 392px;
+  }
+
+  @include tablet {
+    left: calc(50% - 295.7px);
+    width: 592px;
+    height: 392px;
+  }
+
+  @include mobile {
+    left: calc(50% - 237px);
+    width: 474px;
+    height: 314px;
+  }
+
+  @include mobile_2 {
+    left: calc(50% - 95px);
+    width: 190px;
+    height: 418px;
+  }
+}
+
+.about2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #030213;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+
+  @include desktop {
+    width: 1600px;
+    height: 900px;
+  }
+
+  @include laptop {
+    width: 1366px;
+    height: 768px;
+  }
+
+  @include laptop_2 {
+    width: 1280px;
+    height: 800px;
+  }
+
+  @include tablet {
+    width: 1024px;
+    height: 765px;
+  }
+
+  @include mobile {
+    width: 800px;
+    height: 600px;
+  }
+
+  @include mobile_2 {
+    width: 414px;
+    height: 926px;
+  }
+}
+
+.clayPurple00381Icon1 {
+  position: absolute;
+  top: 316px;
+  left: -464px;
+  width: 1076px;
+  height: 1057.8px;
+  object-fit: contain;
+
+  @include desktop {
+    top: 263px;
+    left: -386.5px;
+    width: 896px;
+    height: 881.5px;
+  }
+
+  @include laptop {
+    top: 224px;
+    left: -329px;
+    width: 762px;
+    height: 750px;
+  }
+
+  @include laptop_2 {
+    top: 224px;
+    left: -305px;
+    width: 708px;
+    height: 750px;
+  }
+
+  @include tablet {
+    top: 224px;
+    left: -247px;
+    width: 573.4px;
+    height: 750px;
+  }
+
+  @include mobile {
+    top: 180px;
+    left: -198px;
+    width: 458px;
+    height: 600px;
+  }
+
+  @include mobile_2 {
+    top: 240px;
+    left: -80px;
+    width: 184px;
+    height: 926px;
+  }
+}
+.clayPurple00401Icon1 {
+  position: absolute;
+  top: -97px;
+  left: 1590px;
+  width: 413px;
+  height: 413px;
+  object-fit: cover;
+
+  @include desktop {
+    top: -80.8px;
+    left: 1325px;
+    width: 344px;
+    height: 344px;
+  }
+
+  @include laptop {
+    top: -61px;
+    left: 1127px;
+    width: 292px;
+    height: 292px;
+  }
+
+  @include laptop_2 {
+    top: -61px;
+    left: 1048px;
+    width: 271px;
+    height: 292px;
+  }
+
+  @include tablet {
+    top: -68.7px;
+    left: 848px;
+    width: 220px;
+    height: 292px;
+  }
+
+  @include mobile {
+    top: -55px;
+    left: 678px;
+    width: 176px;
+    height: 234px;
+  }
+
+  @include mobile_2 {
+    top: -74px;
+    left: 272px;
+    width: 71px;
+    height: 312px;
+  }
+}
+
+.icon3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+  display: none;
+
+  @include desktop {
+    width: 1600px;
+    height: 900px;
+  }
+
+  @include laptop {
+    width: 1366px;
+    height: 768px;
+  }
+
+  @include laptop_2 {
+    width: 1280px;
+    height: 800px;
+  }
+
+  @include tablet {
+    width: 1024px;
+    height: 765px;
+  }
+
+  @include mobile {
+    width: 800px;
+    height: 600px;
+  }
+
+  @include mobile_2 {
+    width: 414px;
+    height: 926px;
+  }
+}
+
+.homeChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 1920px;
+  height: 1080px;
+
+  @include desktop {
+    width: 1600px;
+    height: 900px;
+  }
+
+  @include laptop {
+    width: 1366px;
+    height: 768px;
+  }
+
+  @include laptop_2 {
+    width: 1280px;
+    height: 800px;
+  }
+
+  @include tablet {
+    width: 1024px;
+    height: 765px;
+  }
+
+  @include mobile {
+    width: 800px;
+    height: 600px;
+  }
+
+  @include mobile_2 {
+    width: 414px;
+    height: 926px;
+  }
+}
+
+.haeder {
+  position: absolute;
+  top: 263px;
+  left: calc(50% - 798px);
+  font-size: 70px;
+  line-height: 91px;
+  text-align: center;
+
+  @include desktop {
+    top: 219px;
+    left: calc(50% - 665px);
+    font-size: 58.3px;
+    line-height: 75.8px;
+  }
+
+  @include laptop {
+    top: 186px;
+    left: calc(50% - 566px);
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  @include laptop_2 {
+    top: 186px;
+    left: calc(50% - 526px);
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  @include tablet {
+    top: 186px;
+    left: calc(50% - 426px);
+    font-size: 50px;
+    line-height: 64.4px;
+  }
+
+  @include mobile {
+    top: 148px;
+    left: calc(50% - 340px);
+    font-size: 40px;
+    line-height: 51px;
+  }
+
+  @include mobile_2 {
+    top: 102px;
+    left: calc(50% - 136px);
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+.span {
+  font-weight: 500;
+}
+
+.span1 {
+  color: #fff;
+}
+
+.workedOn {
+  font-weight: 800;
+  background: linear-gradient(89.99deg, #00b0ff, #f709f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pageNumberContainer {
+  position: absolute;
+  top: 890px;
+  left: 1698px;
+  width: 152px;
+  height: 22px;
+  text-align: center;
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.14);
+
+  @include desktop {
+    top: 742px;
+    left: 1415px;
+    width: 126.7px;
+    height: 18.3px;
+    font-size: 100px;
+  }
+
+  @include laptop {
+    top: 631px;
+    left: 1203px;
+    width: 108px;
+    height: 16px;
+    font-size: 85px;
+  }
+
+  @include laptop_2 {
+    top: 631px;
+    left: 1118px;
+    width: 100px;
+    height: 16px;
+    font-size: 85px;
+  }
+
+  @include tablet {
+    top: 631px;
+    left: 906px;
+    width: 81.8px;
+    height: 15.6px;
+    font-size: 85px;
+  }
+
+  @include mobile {
+    top: 505px;
+    left: 710px;
+    width: 65px;
+    height: 13px;
+    font-size: 68px;
+  }
+
+  @include mobile_2 {
+    top: 800px;
+    left: 284px;
+    width: 65px;
+    height: 18px;
+    font-size: 50px;
+  }
+}
+
+.pageNumberChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 152px;
+  height: 22px;
+
+  @include desktop {
+    width: 127px;
+    height: 18.3px;
+  }
+
+  @include laptop {
+    width: 108px;
+    height: 16px;
+  }
+
+  @include laptop_2 {
+    width: 100px;
+    height: 16px;
+  }
+
+  @include tablet {
+    width: 81.3px;
+    height: 15.6px;
+  }
+
+  @include mobile {
+    width: 65px;
+    height: 13px;
+  }
+
+  @include mobile_2 {
+    width: 65px;
+    height: 18px;
+  }
+}
+
+.b {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  @include desktop {
+    line-height: 18.3px;
+  }
+
+  @include laptop {
+    line-height: 16px;
+  }
+
+  @include laptop_2 {
+    line-height: 16px;
+  }
+
+  @include tablet {
+    line-height: 15.6px;
+  }
+
+  @include mobile {
+    line-height: 13px;
+  }
+
+  @include mobile_2 {
+    line-height: 13px;
+  }
+}
+
+.aboutUs {
+  position: absolute;
+  top: 0%;
+  left: calc(50% - 11.5px);
+  letter-spacing: 0.01em;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: inline-block;
+  width: 84px;
+
+  @include desktop {
+    left: calc(50% - 9.58px);
+    width: 70px;
+    line-height: 22px;
+  }
+
+  @include laptop {
+    left: calc(50% - 9px);
+    width: 60px;
+    line-height: 19px;
+  }
+
+  @include laptop_2 {
+    left: calc(50% - 8px);
+    width: 55px;
+    line-height: 19px;
+  }
+
+  @include tablet {
+    left: calc(50% - 6.13px);
+    width: 44.8px;
+    line-height: 18.7px;
+  }
+
+  @include mobile {
+    left: calc(50% - 5px);
+    width: 35px;
+    line-height: 15px;
+  }
+
+  @include mobile_2 {
+    left: calc(50% - 2px);
+    width: 35px;
+    line-height: 13px;
+  }
+}
+
+.border {
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  width: 48px;
+  height: 1px;
+
+  @include desktop {
+    top: 10px;
+    width: 34px;
+  }
+
+  @include laptop {
+    top: 9px;
+    width: 29px;
+  }
+
+  @include laptop_2 {
+    top: 9px;
+    width: 26px;
+  }
+
+  @include tablet {
+    top: 8.5px;
+    width: 22px;
+  }
+
+  @include mobile {
+    top: 7px;
+    width: 18px;
+  }
+
+  @include mobile_2 {
+    top: 9.3px;
+    width: 18px;
+  }
+}
+
+.fill {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #fffff0;
+  opacity: 0.65;
+}
+
+.projectsParent {
+  position: absolute;
+  height: 2.41%;
+  top: 19.17%;
+  bottom: 78.43%;
+  left: calc(50% - 808px);
+  width: 145px;
+  font-size: 14.6px;
+  color: #f5f5f5;
+
+  @include desktop {
+    left: calc(50% - 673px);
+    width: 120px;
+    font-size: 12.2px;
+  }
+
+  @include laptop {
+    left: calc(50% - 573px);
+    width: 102px;
+    font-size: 11px;
+  }
+
+  @include laptop_2 {
+    left: calc(50% - 532px);
+    width: 94px;
+    font-size: 11px;
+  }
+
+  @include tablet {
+    left: calc(50% - 431px);
+    width: 76.8px;
+    font-size: 10.4px;
+  }
+
+  @include mobile {
+    left: calc(50% - 345px);
+    width: 62px;
+    font-size: 9px;
+  }
+
+  @include mobile_2 {
+    left: calc(50% - 138px);
+    width: 32px;
+    font-size: 10px;
+    height: 2.41%;
+    top: 8.17%;
+  }
+}
+
+.featuredProducts {
+  position: absolute;
+  top: 444px;
+  left: 152px;
+  border-radius: 0px 0px 20px 20px;
+  width: 285px;
+  height: 446px;
+
+  @include desktop {
+    top: 370px;
+    left: 127px;
+    border-radius: 0px 0px 16.7px 16.7px;
+    width: 237.5px;
+    height: 372px;
+  }
+
+  @include laptop {
+    top: 315px;
+    left: 108px;
+    border-radius: 0px 0px 15px 15px;
+    width: 202px;
+    height: 316px;
+  }
+
+  @include laptop_2 {
+    top: 315px;
+    left: 100px;
+    border-radius: 0px 0px 13px 15px;
+    width: 187px;
+    height: 316px;
+  }
+
+  @include tablet {
+    top: 315px;
+    left: 81.3px;
+    border-radius: 0px 0px 14.2px 14.2px;
+    width: 152px;
+    height: 316px;
+  }
+
+  @include mobile {
+    top: 252px;
+    left: 65px;
+    border-radius: 0px 0px 11px 11px;
+    width: 122px;
+    height: 253px;
+  }
+
+  @include mobile_2 {
+    top: 150px;
+    left: 50px;
+    border-radius: 0px 0px 11px 11px;
+    width: 150px;
+    height: 237px;
+  }
+}
+
+.bg3 {
+  position: absolute;
+  height: 53.7%;
+  width: 100.42%;
+  top: 67.35%;
+  right: -0.21%;
+  bottom: -3.05%;
+  left: -0.21%;
+  backdrop-filter: blur(200px);
+  border-radius: 0px 0px 15px 15px;
+  background-color: rgba(255, 255, 240, 0.04);
+  border: 0.6px solid rgba(255, 255, 240, 0.2);
+  box-sizing: border-box;
+
+  @include desktop {
+    backdrop-filter: blur(167px);
+    border-radius: 0px 0px 12.5px 12.5px;
+  }
+
+  @include laptop {
+    backdrop-filter: blur(167px);
+    border-radius: 0px 0px 11px 11px;
+  }
+
+  @include laptop_2 {
+    backdrop-filter: blur(167px);
+    border-radius: 0px 0px 10px 11px;
+  }
+
+  @include tablet {
+    backdrop-filter: blur(142px);
+    border-radius: 0px 0px 10.6px 10.6px;
+  }
+
+  @include mobile {
+    backdrop-filter: blur(114px);
+    border-radius: 0px 0px 8.5px 8.5px;
+  }
+
+  @include mobile_2 {
+    backdrop-filter: blur(114px);
+    border-radius: 0px 0px 8.5px 8.5px;
+    height: 53.7%;
+    width: 160px;
+    top: 75.35%;
+    right: -0.21%;
+    bottom: -3.05%;
+    left: -0.21%;
+  }
+}
+
+.description {
+  position: absolute;
+  height: 24.44%;
+  width: 88.42%;
+  top: 72.87%;
+  right: 5.96%;
+  bottom: 2.69%;
+  left: 5.61%;
+
+  @include mobile_2 {
+    height: 24.44%;
+    width: 88.42%;
+    top: 78.87%;
+    right: 5.96%;
+    bottom: 2.69%;
+    left: 5.61%;
+  }
+}
+
+.productName {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+}
+
+.productName1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  line-height: 120%;
+  font-weight: 800;
+
+  @include mobile_2 {
+    line-height: 150%;
+    font-size: 10px;
+  }
+}
+
+.sortDescription {
+  position: absolute;
+  top: 33.94%;
+  left: 0%;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Karla;
+
+  @include desktop {
+    font-size: 13.3px;
+  }
+
+  @include laptop {
+    font-size: 11.3px;
+    line-height: 110%;
+    top: 39.94%;
+  }
+
+  @include laptop_2 {
+    font-size: 11.3px;
+    line-height: 110%;
+    top: 39.94%;
+  }
+
+  @include tablet {
+    top: 39.94%;
+    font-size: 11.3px;
+    line-height: 110%;
+  }
+
+  @include mobile {
+    top: 39.94%;
+    font-size: 9px;
+    line-height: 100%;
+  }
+
+  @include mobile_2 {
+    top: 39.94%;
+    font-size: 10px;
+    line-height: 110%;
+    font-weight: 500;
+  }
+}
+
+.atSsstaffingWe {
+  margin: 0;
+}
+
+.imagesIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 285px;
+  height: 301px;
+  object-fit: cover;
+
+  @include desktop {
+    width: 237.5px;
+    height: 251px;
+  }
+
+  @include laptop {
+    width: 202px;
+    height: 213px;
+  }
+
+  @include laptop_2 {
+    width: 187px;
+    height: 213px;
+  }
+
+  @include tablet {
+    width: 152px;
+    height: 213px;
+  }
+
+  @include mobile {
+    width: 122px;
+    height: 170px;
+  }
+
+  @include mobile_2 {
+    width: 160px;
+    height: 180px;
+  }
+}
+
+.button1 {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 126.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+
+  @include desktop {
+    top: 146px;
+    left: calc(50% - 105.4px);
+    gap: 20px;
+  }
+
+  @include laptop {
+    top: 124px;
+    left: calc(50% - 90px);
+    gap: 17px;
+  }
+
+  @include laptop_2 {
+    top: 124px;
+    left: calc(50% - 83.7px);
+    gap: 15px;
+  }
+
+  @include tablet {
+    top: 124px;
+    left: calc(50% - 67.5px);
+    gap: 12.8px;
+  }
+
+  @include mobile {
+    top: 100px;
+    left: calc(50% - 54px);
+    gap: 10px;
+  }
+
+  @include mobile_2 {
+    top: 133px;
+    left: calc(50% - 22px);
+    gap: 5px;
+  }
+}
+
+.cta {
+  width: 202px;
+  position: relative;
+  height: 48px;
+
+  @include tablet {
+    width: 168px;
+    height: 40px;
+  }
+}
+
+.bg4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #fff;
+}
+
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #fff;
+
+  @include desktop {
+    gap: 16.7px;
+  }
+
+  @include laptop {
+    gap: 15px;
+  }
+
+  @include laptop_2 {
+    gap: 13px;
+  }
+
+  @include tablet {
+    gap: 10.7px;
+  }
+
+  @include mobile {
+    gap: 9px;
+  }
+
+  @include mobile_2 {
+    gap: 4px;
+  }
+}
+
+.bg5 {
+  position: absolute;
+  height: 53.7%;
+  width: 100.42%;
+  top: 67.35%;
+  right: -0.21%;
+  bottom: -3.05%;
+  left: -0.21%;
+  backdrop-filter: blur(200px);
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgba(255, 255, 240, 0.04);
+  border: 0.6px solid rgba(255, 255, 240, 0.2);
+  box-sizing: border-box;
+
+  @include desktop {
+    border-radius: 0px 0px 16.7px 16.7px;
+  }
+
+  @include laptop {
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  @include laptop_2 {
+    border-radius: 0px 0px 13px 15px;
+  }
+
+  @include tablet {
+    border-radius: 0px 0px 14.2px 14.2px;
+  }
+
+  @include mobile {
+    border-radius: 0px 0px 11.4px 11.4px;
+  }
+
+  @include mobile_2 {
+    border-radius: 0px 0px 11.4px 11.4px;
+    height: 53.7%;
+    width: 160px;
+    top: 75.35%;
+    right: -0.21%;
+    bottom: -3.05%;
+    left: -0.21%;
+  }
+}
+
+.description1 {
+  position: absolute;
+  height: 24.44%;
+  width: 69.47%;
+  top: 72.87%;
+  right: 24.91%;
+  bottom: 2.69%;
+  left: 5.61%;
+  font-size: 18px;
+  font-family: Montserrat;
+
+  @include desktop {
+    font-size: 15px;
+  }
+
+  @include laptop {
+    font-size: 13px;
+  }
+
+  @include laptop_2 {
+    font-size: 13px;
+  }
+
+  @include tablet {
+    font-size: 13px;
+  }
+
+  @include mobile {
+    font-size: 10px;
+  }
+
+  @include mobile_2 {
+    font-size: 8px;
+  }
+}
+
+.featuredProducts1 {
+  position: absolute;
+  top: 444px;
+  left: 469px;
+  border-radius: 20px;
+  width: 285px;
+  height: 446px;
+  font-size: 16px;
+  font-family: Poppins;
+
+  @include desktop {
+    top: 370px;
+    left: 391px;
+    border-radius: 17px;
+    width: 237px;
+    height: 372px;
+    font-size: 13.3px;
+  }
+
+  @include laptop {
+    top: 315px;
+    left: 333px;
+    border-radius: 15px;
+    width: 202px;
+    height: 316px;
+    font-size: 12px;
+  }
+
+  @include laptop_2 {
+    top: 315px;
+    left: 309px;
+    border-radius: 15px;
+    width: 187px;
+    height: 316px;
+    font-size: 12px;
+  }
+
+  @include tablet {
+    top: 315px;
+    left: 250px;
+    border-radius: 14.5px;
+    width: 152px;
+    height: 316px;
+    font-size: 11.3px;
+  }
+
+  @include mobile {
+    top: 252px;
+    left: 200px;
+    border-radius: 12px;
+    width: 122px;
+    height: 253px;
+    font-size: 9px;
+  }
+
+  @include mobile_2 {
+    top: 150px;
+    left: 230px;
+    border-radius: 19px;
+    width: 150px;
+    height: 237px;
+    font-size: 9px;
+  }
+}
+
+.imagesIcon1 {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  width: 284px;
+  height: 301px;
+  object-fit: contain;
+
+  @include desktop {
+    left: 0.833px;
+    width: 237px;
+    height: 251px;
+  }
+
+  @include laptop {
+    left: 0.8px;
+    width: 202px;
+    height: 214px;
+  }
+
+  @include laptop_2 {
+    left: 0.8px;
+    width: 187px;
+    height: 214px;
+  }
+
+  @include tablet {
+    left: 0.533px;
+    width: 150px;
+    height: 214px;
+  }
+
+  @include mobile {
+    left: 0.43px;
+    width: 120px;
+    height: 172px;
+  }
+
+  @include mobile_2 {
+    left: 0.3px;
+    width: 160px;
+    height: 180px;
+  }
+}
+
+.label {
+  position: absolute;
+  height: 10.76%;
+  width: 16.84%;
+  top: 5.38%;
+  right: 8.42%;
+  bottom: 83.86%;
+  left: 74.74%;
+  display: none;
+  color: #fff;
+}
+
+.featuredProducts2 {
+  position: absolute;
+  top: 444px;
+  left: 786px;
+  border-radius: 0px 0px 20px 20px;
+  width: 285px;
+  height: 446px;
+
+  @include desktop {
+    top: 370px;
+    left: 655px;
+    border-radius: 0px 0px 16.7px 16.7px;
+    width: 237.5px;
+    height: 372px;
+  }
+
+  @include laptop {
+    top: 315px;
+    left: 557px;
+    border-radius: 0px 0px 15px 15px;
+    width: 202px;
+    height: 316px;
+  }
+
+  @include laptop_2 {
+    top: 315px;
+    left: 518px;
+    border-radius: 0px 0px 13px 15px;
+    width: 187px;
+    height: 316px;
+  }
+
+  @include tablet {
+    top: 315px;
+    left: 419px;
+    border-radius: 0px 0px 14.2px 14.2px;
+    width: 152px;
+    height: 317px;
+  }
+
+  @include mobile {
+    top: 336px;
+    left: 134.5px;
+    border-radius: 0px 0px 11.3px 11.3px;
+    width: 50px;
+    height: 254px;
+  }
+
+  @include mobile_2 {
+    top: 490px;
+    left: 50px;
+    border-radius: 0px 0px 11.3px 11.3px;
+    width: 150px;
+    height: 237px;
+  }
+}
+
+.description2 {
+  position: absolute;
+  height: 24.44%;
+  width: 83.86%;
+  top: 72.87%;
+  right: 10.53%;
+  bottom: 2.69%;
+  left: 5.61%;
+
+  @include mobile_2 {
+    height: 24.44%;
+    width: 83.86%;
+    top: 78%;
+    right: 10.53%;
+    bottom: 2.69%;
+    left: 5.61%;
+  }
+}
+
+.description3 {
+  position: absolute;
+  height: 24.44%;
+  width: 95.79%;
+  top: 72.87%;
+  right: -1.4%;
+  bottom: 2.69%;
+  left: 5.61%;
+
+  @include mobile_2 {
+    height: 24.44%;
+    width: 95.79%;
+    top: 78.87%;
+    right: -1.4%;
+    bottom: 2.69%;
+    left: 5.61%;
+  }
+}
+.featuredProducts3 {
+  position: absolute;
+  top: 444px;
+  left: 1103px;
+  border-radius: 0px 0px 20px 20px;
+  width: 285px;
+  height: 446px;
+
+  @include desktop {
+    top: 370px;
+    left: 919px;
+    border-radius: 0px 0px 16.7px 16.7px;
+    width: 237.5px;
+    height: 372px;
+  }
+
+  @include laptop {
+    top: 315px;
+    left: 782px;
+    border-radius: 0px 0px 15px 15px;
+    width: 202px;
+    height: 317px;
+  }
+
+  @include laptop_2 {
+    top: 315px;
+    left: 727px;
+    border-radius: 0px 0px 13px 15px;
+    width: 187px;
+    height: 317px;
+  }
+
+  @include tablet {
+    top: 315px;
+    left: 588px;
+    border-radius: 0px 0px 14.2px 14.2px;
+    width: 152px;
+    height: 316px;
+  }
+
+  @include mobile {
+    top: 252px;
+    left: 470px;
+    border-radius: 0px 0px 11.3px 11.3px;
+    width: 122px;
+    height: 253px;
+  }
+
+  @include mobile_2 {
+    top: 490px;
+    left: 230px;
+    border-radius: 19px;
+    width: 150px;
+    height: 237px;
+    font-size: 9px;
+  }
+}
+
+.vectorIcon {
+  width: 14.1px;
+  position: relative;
+  height: 25.8px;
+
+  @include desktop {
+    width: 11.7px;
+    height: 21.5px;
+  }
+
+  @include laptop {
+    width: 10px;
+    height: 19px;
+  }
+
+  @include laptop_2 {
+    width: 9px;
+    height: 19px;
+  }
+
+  @include tablet {
+    width: 7.5px;
+    height: 18.3px;
+  }
+
+  @include mobile {
+    width: 6px;
+    height: 15px;
+  }
+
+  @include mobile_2 {
+    display: none;
+  }
+}
+.vectorWrapper {
+  position: absolute;
+  top: 595px;
+  left: 1420px;
+  backdrop-filter: blur(200px);
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+
+  @include desktop {
+    top: 496px;
+    left: 1183px;
+    backdrop-filter: blur(167px);
+    border-radius: 83.3px;
+    width: 83.3px;
+    height: 83.3px;
+    padding: 8.33px;
+  }
+
+  @include laptop {
+    top: 422px;
+    left: 1006px;
+    backdrop-filter: blur(142px);
+    border-radius: 71px;
+    width: 71px;
+    height: 71px;
+    padding: 8px;
+  }
+
+  @include laptop_2 {
+    top: 422px;
+    left: 935px;
+    backdrop-filter: blur(142px);
+    border-radius: 71px;
+    width: 66px;
+    height: 71px;
+    padding: 8px;
+  }
+
+  @include tablet {
+    top: 422px;
+    left: 757px;
+    backdrop-filter: blur(142px);
+    border-radius: 71px;
+    width: 53.3px;
+    height: 71px;
+    padding: 7.1px;
+  }
+
+  @include mobile {
+    top: 338px;
+    left: 606px;
+    backdrop-filter: blur(114px);
+    border-radius: 57px;
+    width: 43px;
+    height: 57px;
+    padding: 6px;
+  }
+
+  @include mobile_2 {
+    display: none;
+  }
+}

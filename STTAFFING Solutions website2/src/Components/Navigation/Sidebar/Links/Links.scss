@@ -1,0 +1,105 @@
+@import "../../../../App.scss";
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+
+  @include desktop {
+    gap: 20px;
+  }
+
+  @include laptop {
+    gap: 17px;
+  }
+
+  @include laptop_2 {
+    gap: 15px;
+  }
+
+  @include tablet {
+    gap: 12.8px;
+  }
+
+  @include mobile {
+    gap: 10px;
+  }
+
+  @include mobile_2 {
+    gap: 4px;
+  }
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+
+  @include desktop {
+    padding: 8.33px;
+  }
+
+  @include laptop {
+    padding: 7.1px;
+  }
+
+  @include laptop_2 {
+    padding: 6.6px;
+  }
+
+  @include tablet {
+    padding: 5.33px;
+  }
+
+  @include mobile {
+    padding: 4.2px;
+  }
+
+  @include mobile_2 {
+    padding: 2px;
+  }
+}
+
+.about {
+  position: relative;
+  line-height: 21px;
+  text-decoration: none;
+  color: #fffff0;
+  font-size: 20px;
+  font-family: Karla;
+  text-align: left;
+
+  @include desktop {
+    line-height: 17.5px;
+    font-size: 16.7px;
+  }
+
+  @include laptop {
+    line-height: 14.9px;
+    font-size: 14.2px;
+  }
+
+  @include laptop_2 {
+    line-height: 14.9px;
+    font-size: 14.2px;
+  }
+
+  @include tablet {
+    line-height: 14.9px;
+    font-size: 14.2px;
+  }
+
+  @include mobile {
+    line-height: 12px;
+    font-size: 11.3px;
+  }
+
+  @include mobile_2 {
+    line-height: 19px;
+    font-size: 12px;
+  }
+}

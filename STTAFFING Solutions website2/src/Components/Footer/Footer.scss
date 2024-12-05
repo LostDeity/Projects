@@ -1,0 +1,359 @@
+@import "../../App.scss";
+
+.footer {
+  position: absolute;
+  top: 7560px;
+  left: 0px;
+  width: 1920px;
+  height: 319px;
+  font-family: Karla;
+
+  @include desktop {
+    top: 6300px;
+    width: 1600px;
+    height: 225px;
+  }
+
+  @include laptop {
+    top: 5355px;
+    width: 1366px;
+    height: 191px;
+  }
+
+  @include laptop_2 {
+    top: 5600px;
+    width: 1280px;
+    height: 199px;
+  }
+
+  @include tablet {
+    top: 5355px;
+    width: 1024px;
+    height: 191px;
+  }
+
+  @include mobile {
+    top: 4200px;
+    width: 800px;
+    height: 149px;
+  }
+
+  @include mobile_2 {
+    top: 6480.1px;
+    width: 414px;
+    height: 149px;
+  }
+}
+
+.footerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background: linear-gradient(180deg, #111020, rgba(17, 16, 32, 0.93));
+}
+
+.bottom {
+  position: absolute;
+  height: 7.84%;
+  width: 68.44%;
+  top: 83.39%;
+  right: 15.78%;
+  bottom: 8.78%;
+  left: 15.78%;
+
+  @include mobile_2 {
+    width: 98.44%;
+    top: 76.39%;
+  }
+}
+
+.button6 {
+  position: absolute;
+  height: 96%;
+  width: 9.21%;
+  top: 0%;
+  right: 0%;
+  bottom: 4%;
+  left: 90.79%;
+}
+
+.contactUs {
+  position: absolute;
+  width: 82.64%;
+  top: 0%;
+  left: 0%;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+
+  @include desktop {
+    line-height: 20px;
+  }
+
+  @include laptop {
+    line-height: 17px;
+  }
+
+  @include tablet {
+    line-height: 17px;
+  }
+
+  @include mobile {
+    line-height: 13.6px;
+  }
+
+  @include mobile_2 {
+    line-height: 21px;
+  }
+}
+
+.arrowIcon {
+  position: absolute;
+  height: 30.83%;
+  width: 17.02%;
+  top: 52.08%;
+  right: -0.05%;
+  bottom: 17.09%;
+  left: 83.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.social {
+  position: absolute;
+  height: 57.6%;
+  width: 10.18%;
+  top: 25.99%;
+  right: 44.83%;
+  bottom: 16.41%;
+  left: 44.99%;
+
+  @include tablet {
+    height: 67.6%;
+    width: 30.18%;
+  }
+
+  @include mobile {
+    height: 87.6%;
+    width: 40.18%;
+  }
+
+  @include mobile_2 {
+    display: none;
+  }
+}
+
+.facebookNegative {
+  position: absolute;
+  height: 100%;
+  width: 11.14%;
+  top: 0%;
+  right: 88.86%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.twitterNegative {
+  position: absolute;
+  height: 100%;
+  width: 11.14%;
+  top: 0%;
+  right: 59.23%;
+  bottom: 0%;
+  left: 29.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instagramNegative {
+  position: absolute;
+  height: 100%;
+  width: 11.14%;
+  top: 0%;
+  right: 29.61%;
+  bottom: 0%;
+  left: 59.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linkedinNegative {
+  position: absolute;
+  height: 100%;
+  width: 11.14%;
+  top: 0%;
+  right: -0.01%;
+  bottom: 0%;
+  left: 88.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.ssstaffingAll {
+  position: absolute;
+  width: 24.2%;
+  top: 4%;
+  left: 0%;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #b8b8b8;
+  display: inline-block;
+
+  @include desktop {
+    line-height: 20px;
+    width: 30%;
+  }
+
+  @include laptop {
+    line-height: 17px;
+    width: 40%;
+  }
+
+  @include laptop_2 {
+    line-height: 17px;
+    width: 40%;
+  }
+
+  @include tablet {
+    line-height: 17px;
+    width: 30%;
+  }
+
+  @include mobile {
+    line-height: 13.6px;
+    width: 60%;
+  }
+
+  @include mobile_2 {
+    line-height: 20.9px;
+    width: 80%;
+  }
+}
+
+.line {
+  position: absolute;
+  height: 0.31%;
+  width: 99.94%;
+  top: 73.35%;
+  right: 0.03%;
+  bottom: 26.33%;
+  left: 0.04%;
+  border-top: 1px solid #fffff0;
+  box-sizing: border-box;
+  opacity: 0.07;
+}
+
+.menu8 {
+  position: absolute;
+  top: calc(50% + 19px);
+  left: calc(50% - 428.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 66px;
+
+  @include desktop {
+    top: calc(50% + 15.8px);
+    left: calc(50% - 357px);
+    gap: 55px;
+  }
+
+  @include laptop {
+    top: calc(50% + 14px);
+    left: calc(50% - 304px);
+    gap: 47px;
+  }
+
+  @include laptop_2 {
+    top: calc(50% + 14px);
+    left: calc(50% - 282px);
+    gap: 47px;
+  }
+
+  @include tablet {
+    top: calc(50% + 13.4px);
+    left: calc(50% - 228px);
+    gap: 35.2px;
+  }
+
+  @include mobile {
+    top: calc(45%);
+    left: calc(50% - 260px);
+    gap: 28.16px;
+  }
+
+  @include mobile_2 {
+    top: calc(30%);
+    left: calc(50% - 180px);
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+
+.home2 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fffff0;
+
+  @include desktop {
+    line-height: 20px;
+  }
+
+  @include laptop {
+    line-height: 17px;
+  }
+
+  @include tablet {
+    line-height: 17px;
+  }
+
+  @include mobile {
+    line-height: 13.6px;
+  }
+
+  @include mobile_2 {
+    line-height: 21px;
+  }
+}
+.contact3 {
+  text-transform: capitalize;
+}
+.contactUs1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fffff0;
+
+  @include desktop {
+    line-height: 20px;
+  }
+
+  @include laptop {
+    line-height: 20px;
+  }
+
+  @include tablet {
+    line-height: 20px;
+  }
+
+  @include mobile {
+    line-height: 16px;
+  }
+
+  @include mobile_2 {
+    line-height: 25px;
+  }
+}

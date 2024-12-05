@@ -1,0 +1,70 @@
+@import "../../../App.scss";
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+
+  @include desktop {
+    gap: 42px;
+  }
+
+  @include laptop {
+    gap: 35.7px;
+  }
+
+  @include laptop_2 {
+    gap: 33.2px;
+  }
+
+  @include tablet {
+    gap: 26.9px;
+  }
+
+  @include mobile {
+    gap: 22px;
+  }
+
+  @include mobile_2 {
+    gap: 8.8px;
+  }
+}
+
+.logoIcon {
+  width: 118.2px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+
+  @include desktop {
+    width: 98.5px;
+    height: 26.7px;
+  }
+
+  @include laptop {
+    width: 83.7px;
+    height: 22.7px;
+  }
+
+  @include laptop_2 {
+    width: 77px;
+    height: 22.7px;
+  }
+
+  @include tablet {
+    width: 63px;
+    height: 22.7px;
+  }
+
+  @include mobile {
+    width: 50px;
+    height: 18px;
+  }
+
+  @include mobile_2 {
+    width: 20px;
+    height: 28px;
+  }
+}
